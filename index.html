@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Friend Photo Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1> Photo Gallery</h1>
+        <p>Cherished memories with my best friend</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#memories">Memories</a></li>
+            <li><a href="#adventures">Adventures</a></li>
+            <li><a href="#fun-moments">Fun Moments</a></li>
+            <li><a href="#special-days">Special Days</a></li>
+            <li><a href="#music">Music</a></li>
+            <li><a href="#fun-zone">Fun Zone</a></li>
+        </ul>
+    </nav>
+
+    <section id="memories">
+        <h2>Memories</h2>
+        <div class="gallery">
+            <img src="images/memory.jpg" alt="Memory 1">
+            <img src="images/memory (2).jpg" alt="Memory 2">
+            <img src="images/memory (3).jpg" alt="Memory 3">
+        </div>
+    </section>
+
+    <section id="adventures">
+        <h2>Adventures</h2>
+        <div class="gallery">
+            <img src="images/fev.jpg" alt="Adventure 1">
+            <img src="images/fev (2).jpg" alt="Adventure 2">
+            <img src="images/fev (4).jpg" alt="Adventure 3">
+        </div>
+    </section>
+
+    <section id="fun-moments">
+        <h2>Fun Moments</h2>
+        <div class="gallery">
+            <img src="images/fun movement.jpg" alt="Fun Moment 1">
+            <img src="images/fun movement (2).jpg" alt="Fun Moment 2">
+            <img src="images/fun movement (3).jpg" alt="Fun Moment 3">
+        </div>
+    </section>
+
+    <section id="special-days">
+        <h2>Special Days</h2>
+        <div class="gallery">
+            <img src="images/special.jpg" alt="Special Day 1">
+            <img src="images/special (2).jpg" alt="Special Day 2">
+            <img src="images/special (3).jpg" alt="Special Day 3">
+        </div>
+    </section>
+
+    <section id="music">
+        <h2>Music</h2>
+        <p>Our favorite songs that remind us of our friendship!</p>
+        <div class="music-player">
+            <h3>Song 1: Best Friend Anthem</h3>
+            <audio controls>
+                <source src="music/song1.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <h3>Song 2: Adventure Tune</h3>
+            <audio controls>
+                <source src="music/song2.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <h3>Song 3: Fun Moments Melody</h3>
+            <audio controls>
+                <source src="music/song3.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+    </section>
+
+    <section id="fun-zone">
+        <h2>Fun Zone</h2>
+        <p>Play a quick game to test your friendship knowledge!</p>
+        <div id="game">
+            <h3>Best Friend Quiz</h3>
+            <p id="question">What is your best friend's favorite color?</p>
+            <input type="text" id="answer" placeholder="Your answer">
+            <button id="submit">Submit</button>
+            <p id="result"></p>
+            <button id="next">Next Question</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Best Friend Gallery</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
